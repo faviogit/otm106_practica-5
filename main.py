@@ -9,7 +9,7 @@ ax.bar(eje_x, eje_y, color="blue", label="Datos de ejemplo")
 fig.savefig("generados/grafica_ejemplo.png", bbox_inches="tight")
 plt.close(fig)  # Cerrar la figura para liberar memoria
 
-# Leer archivo Excel
+# Leer archivo Excel .
 archivo_excel = "datos/datos_base.xlsx"
 contador = 1
 while contador <= 5:
